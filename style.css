@@ -1,0 +1,27 @@
+body
+{
+    background-image:url("scenery.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.loginbox
+{
+    max-width:1000px;
+    margin:70px auto;
+}
+.register
+{
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+.login
+{
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+.head
+{
+    color:black;
+    text-align: center;
+}
+label {display: inline-block; width:10em;}
+input[type="radio"]:checked+label{ font-weight: bold; }

@@ -1,0 +1,18 @@
+body
+{
+    background-image:url("scenery.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.loginbox
+{
+    border:solid;
+    border-width: 3px;
+    border-color: black;
+    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+    max-width:400px;
+    margin:170px auto;
+    padding:15px 15px 15px 15px;
+}
+label {display: inline-block; width:10em;}
