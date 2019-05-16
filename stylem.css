@@ -1,0 +1,15 @@
+.card {display:inline-block;
+    border:solid;
+    border-width: 3px;
+    border-color: black;}
+body
+{
+    background-image:url("scenery.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+h1
+{
+    text-align:center;
+}
