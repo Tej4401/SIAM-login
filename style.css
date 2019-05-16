@@ -25,3 +25,10 @@ body
 }
 label {display: inline-block; width:10em;}
 input[type="radio"]:checked+label{ font-weight: bold; }
+.card
+{
+    margin-top:25px;
+    border:solid;
+    border-width: 3px;
+    border-color: black;
+}
