@@ -35,7 +35,7 @@
             </div>
             <div class="d-block d-sm-none">
             <nav class="navbar navbar-expand-lg" style="background-color: black;">
-                <a class="navbar-brand" href="#"><img  src="logo-light.png" width="180px" height="40px"/></a>
+                <a class="navbar-brand" href="https://www.siamvit.com/"><img  src="logo-light.png" width="180px" height="40px"/></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"><i class="fa fa-navicon" style="color:white; padding:5px; border:solid; border-radius:4px; border-color:darkgray;"></i></span>
                 </button>
