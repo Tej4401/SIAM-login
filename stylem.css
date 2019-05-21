@@ -1,15 +1,93 @@
-.card {display:inline-block;
-    border:solid;
-    border-width: 3px;
-    border-color: black;}
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 body
 {
-    background-image:url("scenery.jpg");
+    background-color:darkgray;
     background-size:cover;
     background-position:center;
     background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 h1
 {
+    color:#000;
     text-align:center;
+}
+.card
+{
+    display:inline-block;
+    border:solid;
+    border-width: 3px;
+    border-color: black;
+}
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 16%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+  }
+  
+  .icon-bar a:hover {
+    background-color:whitesmoke; /* Add a hover color */
+    color:black;
+  }
+  .icon-bar {
+    background-color:#000; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+  }
+footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    height:50px;
+ }
+/* Make the container relative */
+.swap-on-hover {
+  position: relative;	
+	margin:  0 auto;
+	max-width: 400px;
+}
+
+/* Select the image and make it absolute to the container */
+.swap-on-hover img {
+  position: absolute;
+  top:2px;
+  left:10%;
+	overflow: hidden;
+	/* Sets the width and height for the images*/
+}
+
+/* 
+	We set z-index to be higher than the back image, so it's alwyas on the front.
+
+We give it an opacity leaner to .25s, that way when we hover we will get a nice fading effect. 
+*/
+.swap-on-hover .swap-on-hover__front-image {
+  z-index: 9999;
+  transition: opacity .3s linear;
+  cursor: pointer;
+}
+
+/* When we hover the figure element, the block with .swap-on-hover, we want to use > so the front-image is going to have opacity of 0, which means it will be hidden, to the back image will show */
+.swap-on-hover:hover > .swap-on-hover__front-image{
+  opacity: 0;
+}
+.logo
+{
+    background-color: #000;
+}
+.logo:hover
+{
+    background-color:whitesmoke;
 }
